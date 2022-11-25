@@ -1,0 +1,84 @@
+const center=document.getElementById("center");
+// center.innerText="Hi";
+const individual=document.getElementsByClassName("individual");
+
+
+const getColor=(element)=> window.getComputedStyle(element).backgroundColor;
+const changeColor=(centerArea,ofIndividualDiv,gettingColor)=>{
+    centerArea.style.background=gettingColor(ofIndividualDiv);
+}
+individual[0].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[0],getColor);
+});
+individual[1].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[1],getColor);
+});
+individual[2].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[2],getColor);
+});
+individual[3].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[3],getColor);
+});
+individual[4].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[4],getColor);
+});
+individual[5].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[5],getColor);
+});
+individual[6].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[6],getColor);
+});
+individual[7].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[7],getColor);
+});
+individual[8].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[8],getColor);
+});
+individual[9].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[9],getColor);
+});
+individual[10].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[10],getColor);
+});
+individual[11].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[11],getColor);
+});
+individual[12].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[12],getColor);
+});
+individual[13].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[13],getColor);
+});
+individual[14].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[14],getColor);
+});
+individual[15].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[15],getColor);
+});
+individual[16].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[16],getColor);
+});
+individual[17].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[17],getColor);
+});
+individual[18].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[18],getColor);
+});
+individual[19].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[19],getColor);
+});
+individual[20].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[20],getColor);
+});
+individual[21].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[21],getColor);
+});
+individual[22].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[22],getColor);
+});
+individual[23].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[23],getColor);
+});
+individual[24].addEventListener("mouseenter",()=>{
+     changeColor(center,individual[24],getColor);
+});
